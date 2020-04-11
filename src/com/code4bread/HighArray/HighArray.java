@@ -50,8 +50,6 @@ public class HighArray {
             int curIndex = lowerbound + upperbound / 2;
             long curValue = array[curIndex];
 
-            System.out.println(curValue);
-
             if (curValue == value) {
                 return curIndex;
             } else if (curValue < value) {
