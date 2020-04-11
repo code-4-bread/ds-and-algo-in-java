@@ -42,6 +42,26 @@ public class HighArray {
         return -1;
     }
 
+    public int binarySearch(long value) {
+        int lowerbound = 0;
+        int upperbound = elementCount - 1;
+
+        while (true) {
+            int curIndex = lowerbound + upperbound / 2;
+            long curValue = array[curIndex];
+
+            System.out.println(curValue);
+
+            if (curValue == value) {
+                return curIndex;
+            } else if (curValue < value) {
+                lowerbound = curIndex + 1;
+            } else {
+                upperbound = curIndex - 1;
+            }
+        }
+    }
+
     public void display() {
         for (int i = 0; i < elementCount; i++) {
             System.out.println(array[i]);
