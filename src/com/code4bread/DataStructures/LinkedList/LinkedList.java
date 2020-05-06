@@ -73,4 +73,18 @@ public class LinkedList {
             }
         }
     }
+
+    public void reverse() {
+        Link prev = null;
+        Link cur = head;
+        Link next = null;
+
+        while(cur != null) {
+            head = cur;
+            next = cur.getNext();
+            cur.setNext(prev);
+            prev = cur;
+            cur = next;
+        }
+    }
 }

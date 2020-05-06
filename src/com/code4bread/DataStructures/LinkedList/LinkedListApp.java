@@ -8,12 +8,9 @@ public class LinkedListApp {
         linkList.addFromTail(33);
         linkList.addFromTail(44);
         linkList.addFromTail(55);
-        System.out.printf("Size - %d\n", linkList.getSize());
         linkList.print();
         System.out.println("------------------");
-        linkList.deleteFromHead();
-        linkList.deleteAfter(33);
-        System.out.printf("Size - %d\n", linkList.getSize());
+        linkList.reverse();
         linkList.print();
         System.out.println("------------------");
     }
