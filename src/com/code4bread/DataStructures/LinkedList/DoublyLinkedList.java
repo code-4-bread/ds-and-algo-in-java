@@ -62,8 +62,6 @@ public class DoublyLinkedList {
             temp = temp.getNext();
         }
 
-        System.out.println("VALUE");
-        System.out.println(temp.getValue());
         DoublyLink previousNode = temp.getNext().getPrevious();
         previousNode.setNext(temp.getNext().getNext());
 
