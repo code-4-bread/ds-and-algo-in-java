@@ -1,19 +1,19 @@
 package com.code4bread.DataStructures.LinkedList;
 
-public class Node {
+public class Link {
     private int value;
-    private Node nextPointer;
+    private Link nextPointer;
 
-    public Node(int value, Node nextPointer) {
+    public Link(int value, Link nextPointer) {
         this.value = value;
         this.nextPointer = nextPointer;
     }
 
-    public Node getNext() {
+    public Link getNext() {
         return this.nextPointer;
     }
 
-    public void setNext(Node nextPointer) {
+    public void setNext(Link nextPointer) {
         this.nextPointer = nextPointer;
     }
 
