@@ -1,4 +1,4 @@
-package com.code4bread.LowArray;
+package com.code4bread.DataStructures.LowArray;
 
 public class LowArray {
 

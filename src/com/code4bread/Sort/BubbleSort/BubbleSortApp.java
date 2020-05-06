@@ -1,4 +1,4 @@
-package com.code4bread.BubbleSort;
+package com.code4bread.Sort.BubbleSort;
 
 import java.util.Arrays;
 

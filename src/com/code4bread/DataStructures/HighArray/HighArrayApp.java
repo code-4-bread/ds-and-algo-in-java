@@ -1,4 +1,4 @@
-package com.code4bread.HighArray;
+package com.code4bread.DataStructures.HighArray;
 
 public class HighArrayApp {
     public static void main(String[] args) {

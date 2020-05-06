@@ -1,4 +1,4 @@
-package com.code4bread.SelectionSort;
+package com.code4bread.Sort.SelectionSort;
 
 public class SelectionSort {
     public static void sort(int[] intArray) {

@@ -1,4 +1,4 @@
-package com.code4bread.SelectionSort;
+package com.code4bread.Sort.SelectionSort;
 
 
 import java.util.Arrays;
