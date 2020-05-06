@@ -53,7 +53,7 @@ public class LinkedList {
             temp = temp.getNext();
         }
 
-        temp.setNext(null);
+        temp.setNext(temp.getNext().getNext());
 
         size--;
     }
